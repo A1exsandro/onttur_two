@@ -7,8 +7,12 @@
   <link rel="stylesheet" href="../@css/root.css">
 
   <title>Onttur</title>
+  <style>
+
+  </style>
 </head>
 <body>
+
   <header>
     <div class="container-header">
       <img src="../img/logo-onttur.png" alt="Logo Onttur">
@@ -23,7 +27,33 @@
   </header>
 
   <div class="main">
-    <img class="img-main" src="../img/wallpaperbetter 2.png" alt="">
+    <img class="w-100" src="../img/wallpaperbetter 2.png" alt="">
+  </div>
+
+  <!-- SEARCH -->
+  <div class="d-flex justify-content-center">
+    <form class="search">
+
+      <div class="state first-group clicked-first">
+        <div class="count-state">1</div>
+        <div>
+          <h4>Estado</h4>
+          <input type="text" placeholder="Pesquisar estado">
+        </div>
+      </div>
+
+      <div class="second-group clicked-second">
+        <div class="city">
+          <div class="count-city">2</div>
+          <div>
+            <h4>Cidade</h4>
+            <input type="text" placeholder="Pesquisar cidade">
+          </div>
+        </div>
+        <button class="btn-search"  id="menu-btn">Buscar</button>
+      </div>
+
+    </form>
   </div>
   
 </body>

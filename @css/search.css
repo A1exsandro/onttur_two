@@ -1,0 +1,70 @@
+.search {
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: absolute;
+margin-top: -40px;
+width: 600px;
+height: 66px;
+background: #FFFFFF;
+/* background: #D6D6D6; */
+box-shadow: 0px 4px 4px rgba(137, 137, 137, 0.25);
+border-radius: 102.5px;
+
+font-family: 'Poppins';
+font-style: normal;
+}   
+
+.state, .city, .second-group {
+display: flex;
+align-items: center;
+}
+
+.count-state, .count-city {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 36px;
+height: 36px;
+border-radius: 50%;
+margin-right: 15px;
+margin-left: 21px;
+
+background: rgba(80, 164, 148, 0.32);
+}
+
+.state {
+width: 231px;
+border-right: 1.5px solid #D6D6D6;
+}
+
+.second-group {
+width: 369px;
+justify-content: space-around;
+}
+
+.place {
+display: flex;
+align-items: center;
+}
+
+input {
+width: 104px;
+height: 18px;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #B4B4B4;
+}
+
+.btn-search {
+width: 112px;
+height: 41px;
+border-radius: 20.5px;
+background: #D9343D;
+color: #FFFFFF;
+
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+}
