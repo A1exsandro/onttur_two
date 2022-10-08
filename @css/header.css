@@ -15,26 +15,25 @@ header {
 }
 
 .container-header img {
-  width: 95.22px;
-  height: 40px;
+  width: 6rem;
+  height: 2,5rem;
 }
 
 .info-header a {
   border-right: 1px solid #EEEEEE;
-  padding: 0 30px 0 30px;
+  padding: 0 1.8rem 0 1.8rem;
 
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 
   color: #50A494;
 }
 
 .info-header button {
-  width: 122px;
-  height: 40px;
+  width: 7.6rem;
+  height: 2.5rem;
   background: #50A494;
   border-radius: 24.7638px;
   margin-left: 30px;
@@ -42,7 +41,7 @@ header {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 
   color: #FFFFFF;
