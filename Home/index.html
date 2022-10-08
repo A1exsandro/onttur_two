@@ -79,7 +79,6 @@
     /* DIV BE PREMIUM */
     .premium {
       background: #50A494;
-      color: #FFFFFF;
     }
 
     .card-premium {
@@ -98,9 +97,57 @@
     .btn-sign {
       width: 353px;
       height: 60px;
-      color: #FFFFFF;
       background: #50A494;
       border-radius: 30px;
+    }
+
+    /* TEXT CARD */
+    .title-card {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 4.45rem;
+      line-height: 83px;
+      color: #FFFFFF;
+    }
+
+    .subtitle {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 26.3797px;
+      line-height: 40px;
+      color: #FFFFFF;
+    }
+
+    .text-info-card {
+      /* font-weight: 700; */
+      /* font-style: normal;
+      size: 1.13rem;
+      color: #000000; */
+    }
+
+    .text-sign {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.5rem;
+      color: #A7A7A7;
+    }
+
+    .text-price {
+      font-weight: 700;
+      font-size: 5.7rem;
+    }
+
+    .text-bnt-card {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.125rem;
+      line-height: 27px;
+      color: #FFFFFF;
+    }
+
+    .coin {
+      font-weight: 600;
+      font-size: 2.4rem;
     }
 
   </style>
@@ -221,7 +268,7 @@
   <div class="premium d-flex w-100 justify-content-center mt-787">
     <div class="d-flex justify-content-between w-85 py-975">
       <div class="">
-        <h1>Seja <br> Premium</h1>
+        <h1 class="title-card">Seja <br> Premium</h1>
         <h4>
           Encontre ofertas em hotéis, <br>
           casas, apartamentos e muito <br>
@@ -232,17 +279,42 @@
       <div class="card-premium d-flex justify-content-between">
         <div class="flex-column justify-content-center">
           <div class="card-premium-info p-3">
-            <h5>40% desconto em todos os serviços</h5>
-            <h5>Bônus vouchers de drink em dobro</h5>
-            <h5>Descontos especiais em restaurantes</h5>
+
+            <div class="text-info-card flex-column justify-content-center">
+
+              <div class="d-flex">
+                <span class="material-symbols-rounded text-success mr-1">
+                  done
+                </span>
+                <span class="text-success mr-1 font-weight-bold">40% desconto</span> em todos os serviços
+              </div>
+
+              <div class="d-flex">
+                <span class="material-symbols-rounded text-success mr-1">
+                  done
+                </span>
+                Bônus vouchers de drink em dobro
+              </div>
+
+              <div class="d-flex">
+                <span class="material-symbols-rounded text-success mr-1">
+                  done
+                </span>
+                Descontos especiais em restaurantes
+              </div>
+
+            </div>
+
           </div>
         </div>
         <div class="flex-column justify-content-center align-items-center p-3">
-          <h3>ASSINATURA</h3>
-          <h3>R$</h3>
-          <h1>19,90</h1>
-          <h4>por mês</h4>
-          <button class="btn-sign">
+          <h3 class="text-sign">ASSINATURA</h3>
+          <div class="d-flex">
+            <h3 class="coin">R$</h3>
+            <h1 class="text-price">19,90</h1>
+          </div>
+          <h4 class="text-sign mb-4">por mês</h4>
+          <button class="btn-sign text-bnt-card">
             Assinar
           </button>
         </div>
