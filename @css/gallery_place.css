@@ -1,0 +1,40 @@
+.btn-gallery {
+  width: 4.43rem;
+  height: 4.43rem;
+  border-radius: 50%;
+  background: #EDEBEB;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.clicked {
+  background: #50A494;
+  color: #FFFFFF;
+}
+
+hr {
+  width: 271px;
+  height: 4px;
+  margin-bottom: 4.37rem;
+  background: #50A494;
+}
+
+.img-gallery-three {
+  width: 28.5rem;
+  height: 31.5rem;
+}
+
+.img-gallery-place img {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.score {
+  background-color: rgba(254, 242, 221, 0.8);;
+  border-radius: 1.75rem;
+  width: 6.8rem;
+  height: 3.5rem;
+}
+
+.img-star {
+  color: #fcba03;
+}
