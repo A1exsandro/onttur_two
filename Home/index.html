@@ -20,6 +20,10 @@
       margin-left: 4.82rem;
     }
 
+    .mb-248 {
+      margin-bottom: 248px;
+    }
+
     .gap-1 {
       gap: 3.8rem;
     }
@@ -106,8 +110,127 @@
     }
 
     .border-hr {
-      border-bottom: solid #50A494 4px;
+      border-bottom: 4px solid #50A494;
     }
+
+    /* ABOUT US */
+    .about-us {
+      border-bottom: 4px solid #50A494;
+      margin: 12.8rem 0 10.6rem 0;
+
+      font-style: normal;
+      font-weight: 600;
+      font-size: 38.1325px;
+      line-height: 57px;
+    }
+
+    .title-about {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 48px;
+    }
+
+    .title-about {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 48px;
+      margin-bottom: 23px;
+    }
+
+    .description-about {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 62px;
+    }
+
+    .btn-about {
+      width: 204px;
+      height: 60px;
+      background: #50A494;
+      border-radius: 30px;
+
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: #FFFFFF;
+    }
+
+    .img-about {
+      width: 444px;
+      height: 619px;
+    }
+
+    .img-about2 {
+      position: absolute;
+      margin-left: -285px;
+      margin-top: 81px;
+    }
+
+    .img-about3 {
+      position: absolute;
+      margin-left: -178px;
+      margin-top: 427px;
+    }
+    /* END */
+
+    footer {
+      width: 100%;
+      height: 171px;
+      background: #F2F2F2;
+    }
+
+    /* =========== ASKS ============ */
+
+    .asks-title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+    }
+
+    .asks-subtitle {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+
+      color: #9E9E9E;
+    }
+
+    .asks-title h2 {
+      margin-top: 94px;
+      margin-bottom: 54px;
+    }
+
+    .asks {
+      display: flex;
+      align-items: center;
+      height: 100px;
+      border-bottom: 1px solid #E0E0E0;
+      margin-bottom: 39px;
+    }
+
+    .asks h6 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+      margin-left: 61px;
+
+      color: #000000;
+    }
+
+    .icon {
+      width: 26px;
+      height: 16.06px;
+      margin-right: 30x;
+    }
+
   </style>
 </head>
 <body>
@@ -160,8 +283,10 @@
 
     <div class="d-flex mt-5 align-items-center justify-content-between w-100">
       <h3>Explore os melhores destinos</h3>
+
+      <!-- NAVIGATION BUTTON -->
       <div>
-        <button class="btn-gallery">
+        <button class="btn-gallery mr-2">
           <span class="material-symbols-rounded">
             chevron_left
           </span>
@@ -301,14 +426,14 @@
   </div>
 
   <!-- GALLERY PLACE TWO -->
-  <div class="w-85 center">
-    <div class="d-flex justify-content-between w-52 center">
+  <div class="w-85 flex-column center">
+    <div class="d-flex justify-content-between w-80 center">
       <h3 class="border-hr">Opções de passeio</h3>
       <h3>Dicas de viagem</h3>
       <h3>Opções de pesca</h3>
     </div>
 
-    <div class="d-flex gap-2 mt-6">
+    <div class="d-flex gap-2 mt-6 mb-7">
 
       <!-- FIRST PLACE  -->
       <div class="img-gallery-place">
@@ -363,7 +488,115 @@
       </div>
 
     </div>
+
+     <!-- NAVIGATION BUTTON -->
+     <div class="center">
+      <button class="btn-gallery mr-2">
+        <span class="material-symbols-rounded">
+          chevron_left
+        </span>
+      </button>
+      <button class="btn-gallery clicked">
+        <span class="material-symbols-rounded">
+          chevron_right
+        </span>
+      </button>
+    </div>
+    
   </div>
+
+  <!-- ABOUT US -->
+  <div class="w-85 center mb-248">
+    <h2 class="about-us">Sobre nós</h2>
+    <div class="d-flex">
+      <div class="w-50">
+        <img class="img-about" src="../img/Mask group.png" alt="">
+        <img class="img-about2" src="../img/Mask group2.png" alt="">
+        <img class="img-about3" src="../img/Mask group3.png" alt="">
+      </div>
+
+      <div class="tex-about">
+        <h2 class="title-about">
+          Nós trabalhamos para selecionar os <br>
+          melhores lugares
+        </h2>
+        <h3 class="description-about">
+          Selecionamos Ofertas Para Você, umas com <br>
+          Reservas Flexíveis e outras com Preços Incríveis. <br>
+          Compare Hotéis e Economize. Reserve o Melhor <br>
+          Hotel pelo Menor Preço. Até 12x sem Juros! <br>
+          Reserve Agora. Ofertas Incríveis. Cancelamento <br>
+          Grátis, Fácil e Rápido.
+        </h3>
+        <button class="btn-about">Entrar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- IMG RECOMMENDATIOS -->
+  <div class="recommendations">
+    <div class="flex-column justify-content-center ml-482">
+      <h3 class="title-recommendations">Uma viagem faria bem para vocês</h3>
+      <h4 class="subtitle-recommendations">Use nosso aplicativo para planejar as férias que <br> você merece </h4>
+      <button class="btn-recommendations">Ver mais</button>
+    </div>
+    <div class="img-recommendations w-50"></div>
+  </div>
+
+  <div style="margin-top: 140px;">
+    <img src="../img/Mask group-beach.png" alt="">
+  </div>
+
+  <!--- ASKS --->
+  <div class="w-50 center">
+
+      <h2 class="asks-title">Perguntas Frequente<br>
+        <span class="asks-subtitle">Quero ser um assinante, como Faço?</span>
+      </h2>
+
+
+    <div class="asks">
+      <span class="icon material-symbols-rounded">
+        expand_more
+      </span>
+      <h6>O que é Onttur?</h6>
+    </div>
+
+    <div class="asks">
+      <span class="icon material-symbols-rounded">
+        expand_more
+      </span>
+      <h6>Quero ser um assinante, como Faço?</h6>
+    </div>
+
+    <div class="asks">
+      <span class="icon material-symbols-rounded">
+        expand_more
+      </span>
+      <h6>O pagamento é recorrente?</h6>
+    </div>
+
+    <div class="asks">
+      <span class="icon material-symbols-rounded">
+        expand_more
+      </span>
+      <h6>Preciso fazer reserva no restaurante?</h6>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="d-flex justify-content-center">
+    <div class="w-85 d-flex justify-content-between align-items-center">
+      <div>
+        © 2022 Onttur, Inc. Todos os direitos reservados
+        <span class="ml-5 font-weight-bold">65 8000-5555</span>
+      </div>
+      <div>
+        <img src="../img/icons8-instagram.png" alt="instagram">
+        <img src="../img/icons8-facebook.png" alt="facebook">
+      </div>
+    </div>
+  </footer>
   
 </body>
 </html>
