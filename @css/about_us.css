@@ -1,0 +1,62 @@
+.about-us {
+	border-bottom: 4px solid #50A494;
+	margin: 12.8rem 0 10.6rem 0;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 38.1325px;
+	line-height: 57px;
+}
+
+.title-about {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 48px;
+}
+
+.title-about {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 48px;
+	margin-bottom: 23px;
+}
+
+.description-about {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 62px;
+}
+
+.btn-about {
+	width: 204px;
+	height: 60px;
+	background: #50A494;
+	border-radius: 30px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #FFFFFF;
+}
+
+.img-about {
+	width: 444px;
+	height: 619px;
+}
+
+.img-about2 {
+	position: absolute;
+	margin-left: -285px;
+	margin-top: 81px;
+}
+
+.img-about3 {
+	position: absolute;
+	margin-left: -178px;
+	margin-top: 427px;
+}
