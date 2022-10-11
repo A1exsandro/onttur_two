@@ -7,3 +7,8 @@
 @import "recommendations.css";
 @import "about_us.css";
 @import "asks.css";
+@import "button.css";
+@import 'search_header.css';
+@import 'category_selector.css';
+@import 'breadcrumb.css';
+@import 'filters.css';

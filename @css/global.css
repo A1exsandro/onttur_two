@@ -22,3 +22,11 @@ body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
 }
+
+button {
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none; 
+}

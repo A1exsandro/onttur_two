@@ -48,13 +48,14 @@ display: flex;
 align-items: center;
 }
 
-input {
+.search input {
 width: 104px;
 height: 18px;
 font-weight: 400;
 font-size: 12px;
 line-height: 18px;
 color: #B4B4B4;
+outline: none;
 }
 
 .btn-search {
