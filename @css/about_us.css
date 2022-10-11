@@ -4,8 +4,8 @@
 
 	font-style: normal;
 	font-weight: 600;
-	font-size: 38.1325px;
-	line-height: 57px;
+	font-size: 2.3rem;
+	line-height: 3.5rem;
 }
 
 .title-about {
@@ -39,24 +39,32 @@
 
 	font-style: normal;
 	font-weight: 600;
-	font-size: 18px;
-	line-height: 27px;
+	font-size: 1.1rem;
+	line-height: 1.6rem;
 	color: #FFFFFF;
 }
 
 .img-about {
-	width: 444px;
-	height: 619px;
+	width: 27.75rem;
+	height: 38.6rem;
 }
 
 .img-about2 {
 	position: absolute;
-	margin-left: -285px;
-	margin-top: 81px;
+	margin-left: -17.81rem;
+	margin-top: 5rem;
 }
 
 .img-about3 {
 	position: absolute;
-	margin-left: -178px;
-	margin-top: 427px;
+	margin-left: -11.125rem;
+	margin-top: 26.68rem;
+}
+
+@media screen and (max-width: 428px) {
+
+  .btn-about {
+    display: none;
+  }
+
 }
