@@ -38,3 +38,10 @@ hr {
 .img-star {
   color: #fcba03;
 }
+
+@media screen and (max-width: 428px) {
+  .container-btn-gallery {
+    display: none;
+  }
+
+}
