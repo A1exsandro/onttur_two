@@ -45,15 +45,9 @@ display: flex;
 align-items: center;
 }
 
-<<<<<<< HEAD
-input {
-width: 6.5rem;
-height: 1.125rem;
-=======
 .search input {
 width: 104px;
 height: 18px;
->>>>>>> 4272af4bbc7288beea9a50d60fb1756a6945c100
 font-weight: 400;
 font-size: 0.75rem;
 line-height: 1.125rem;
@@ -100,7 +94,7 @@ line-height: 1.125rem;
 		margin-left: 1rem;
 	}
 
-	input {
+	.search input {
 		width: 3.7rem;
 		height: 0.6rem;
 		font-weight: 400;
