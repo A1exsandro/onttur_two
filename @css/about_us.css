@@ -1,11 +1,13 @@
 .about-us {
-	border-bottom: 4px solid #50A494;
-	margin: 12.8rem 0 10.6rem 0;
-
+  border-bottom: 4px solid #50A494;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 2.3rem;
 	line-height: 3.5rem;
+}
+
+.div-about {
+  margin: 12.8rem 10rem 10.6rem 0;
 }
 
 .title-about {
@@ -67,6 +69,25 @@
     width: 100%;
   }
 
+  .div-about {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .title-about {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 18px;
+  }
+
+  .description-about {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
   .img-about {
     width: 16.25rem;
     height: 22.6rem;
@@ -89,6 +110,10 @@
 
   .btn-about {
     display: none;
+  }
+
+  .about-mobile {
+    flex-direction: column-reverse;
   }
 
 }

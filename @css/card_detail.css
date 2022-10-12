@@ -1,0 +1,35 @@
+.card-group {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2.813rem;
+}
+.card-group img  {
+    height: 18.125rem;
+    width: 18.125rem;
+    border-radius: 10px;
+}
+
+.card-group p  {
+    margin-bottom: .3rem;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card-body {
+    margin-top: 1rem;
+}
+
+.card-title {
+    font-weight: 500;
+}
+
+.card-description {
+    font-weight: 300;
+    color: #828282;
+}
+
+.card-discount {
+    font-weight: bold;
+}

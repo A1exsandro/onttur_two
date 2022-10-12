@@ -1,0 +1,17 @@
+.container-breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    color: #8C8C8C;
+}
+
+.container-breadcrumb li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container-breadcrumb span {
+    font-size: 16px;
+    padding: 0 .5rem;
+}

@@ -5,6 +5,7 @@
   height: 20.3rem;
   background: rgba(210, 97, 24, 0.2);
   border-radius: 0.7rem;
+  margin-top: 248px;
 }
 
 .title-recommendations {
@@ -72,6 +73,7 @@
 
   .recommendations {
     height: 11rem;
+    margin-top: 0;
   }
 
   .img-recommendations {

@@ -5,10 +5,15 @@ footer {
   margin-top: 435px;
 }
 
+.reserved {
+  display: flex;
+}
+
 @media screen and (max-width: 980px) {
 
   footer {
     height: 5.5rem;
+    margin-top: 16.2rem;
   }
 
   .footer-mobile {

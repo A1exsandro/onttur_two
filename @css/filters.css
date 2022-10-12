@@ -1,0 +1,35 @@
+.container-filters {
+    border: 1px solid #D3D3D3;
+    border-radius: 0.625rem;
+    width: 16.25rem;
+    padding: 0 36px;
+}
+
+.container-section-filter {
+    border-bottom: 1px solid #eeeeee;
+    padding: 35px 0;
+}
+
+.container-filters ul {
+    margin: 1rem 0;
+}
+
+
+.container-filters strong {
+    font-weight: bold;
+}
+
+.container-filters p {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.container-filters li {
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+.container-filters li span {
+    margin-left: .5rem;
+    font-weight: 300;
+}

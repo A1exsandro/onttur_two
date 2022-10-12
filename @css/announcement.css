@@ -1,0 +1,36 @@
+.announcement {
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+    background: rgba(210, 97, 24, 0.2);
+    border-radius: 0.7rem;
+    margin: 2.5rem 0;
+}
+
+.announcement main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.announcement-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+
+.announcement-description {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.announcement-image  {
+    border-radius: 0 0.7rem 0.7rem 0;
+    background-image: url('../img/coca-cola-com-gelo-garrafa-vidro.jpg');
+}
