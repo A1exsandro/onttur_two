@@ -9,3 +9,10 @@
 	border-color: #50A494;
     border: 0.063rem solid #569E3D;
 }
+
+.button--state-danger {
+	color: #FFF;
+	background: #C41013;
+	border-color: #C41013;
+    border: 0.063rem solid #C41013;
+}
