@@ -1,6 +1,8 @@
 .premium {
 background: #50A494;
 margin-bottom: 6.25rem;
+margin-top: 7.87rem;
+padding: 9.75rem 0;
 }
 
 .card-premium {
@@ -72,10 +74,18 @@ font-weight: 600;
 font-size: 2.4rem;
 }
 
-@media screen and (max-width: 428px) {
-  
+@media screen and (max-width: 980px) {
+
   .premium {
     background: #FFFFFF;
+    margin-top: 3.3rem;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .card-premium {
+    display: flex;
+    justify-content: center;
   }
 
   .card-premium-info {
@@ -86,11 +96,24 @@ font-size: 2.4rem;
     display: none;
   }
 
+  .text-sign {
+    font-size: 1rem;
+  }
+
+  .text-price {
+    font-size: 4.9rem; 
+  }
+
   .card-sign {
-    width: 23.2rem;
+    width: 22rem;
     height: 21.4rem;
     border: 1px solid #D3D3D3;
     border-radius: 14px;
+  }
+
+  .btn-sign {
+    width: 18.8rem;
+    height: 3.2rem;
   }
 
 }

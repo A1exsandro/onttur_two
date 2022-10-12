@@ -258,7 +258,10 @@
   color: #50A494;
 }
 
-
 .rounded-circle {
   border-radius: 50%
+}
+
+.d-none {
+  display: none;
 }
