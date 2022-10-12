@@ -24,6 +24,10 @@
       margin-bottom: 248px;
     }
 
+    .mb18 {
+      margin-bottom: 1.8rem;
+    }
+
     .gap-1 {
       gap: 3.8rem;
     }
@@ -46,24 +50,29 @@
       padding: 156px 0;
     }
 
+    
 
     .overflow-h {
       overflow: hidden;
     }
     
-    footer {
-      width: 100%;
-      height: 171px;
-      background: #F2F2F2;
-      margin-top: 435px;
-    }
   </style>
 </head>
 <body>
 
   <header>
     <div class="container-header">
+      <div class="d-none d-visible">
+        <span class="material-symbols-rounded">
+          menu
+        </span>
+      </div>
       <img src="../img/logo-onttur.png" alt="Logo Onttur">
+      <div class="d-none d-visible">
+        <span class="material-symbols-rounded">
+          search
+        </span>
+      </div>
       <div class="info-header">
         <a href="#">Melhores destinos</a>
         <a href="#">Recomendações</a>
@@ -79,12 +88,12 @@
   </div>
 
   <!-- SEARCH -->
-  <!-- <div class="d-flex justify-content-center">
+  <div class="d-flex justify-content-center">
     <form class="search">
 
       <div class="state first-group clicked-first">
         <div class="count-state">1</div>
-        <div>
+        <div class="div-state">
           <h4>Estado</h4>
           <input type="text" placeholder="Pesquisar estado">
         </div>
@@ -93,7 +102,7 @@
       <div class="second-group clicked-second">
         <div class="city">
           <div class="count-city">2</div>
-          <div>
+          <div class="div-city">
             <h4>Cidade</h4>
             <input type="text" placeholder="Pesquisar cidade">
           </div>
@@ -102,12 +111,12 @@
       </div>
 
     </form>
-  </div> -->
+  </div>
 
   <!-- BEST PLACES GALLERY -->
   <div class="overflow-h flex-column w-85 center">
 
-    <div class="d-flex mt-5 align-items-center justify-content-between w-100">
+    <div class="d-flex mt-5 mt5-mobile align-items-center justify-content-between w-100">
       <h3>Explore os melhores destinos</h3>
 
       <!-- NAVIGATION BUTTON -->
@@ -253,10 +262,10 @@
 
   <!-- GALLERY PLACE TWO -->
   <div class="w-85 flex-column center overflow-h">
-    <div class="d-flex justify-content-between w-80 center">
-      <h3 class="border-hr">Opções de passeio</h3>
-      <h3>Dicas de viagem</h3>
-      <h3>Opções de pesca</h3>
+    <div class="d-flex justify-content-between w-80">
+      <h3 class="title-place border-hr">Opções de passeio</h3>
+      <h3 class="title-place">Dicas de viagem</h3>
+      <h3 class="title-place">Opções de pesca</h3>
     </div>
 
     <div class="d-flex justify-content-between gap-2 mt-6 mb-7">
@@ -335,13 +344,13 @@
   <div class="overflow-h w-85 center mb-248">
     <h2 class="about-us">Sobre nós</h2>
     <div class="d-flex">
-      <div class="w-50">
+      <div class="div-img-about w-50">
         <img class="img-about" src="../img/Mask group.png" alt="">
         <img class="img-about2" src="../img/Mask group2.png" alt="">
         <img class="img-about3" src="../img/Mask group3.png" alt="">
       </div>
 
-      <div class="text-about">
+      <!-- <div class="text-about">
         <h2 class="title-about">
           Nós trabalhamos para selecionar os <br>
           melhores lugares
@@ -355,7 +364,7 @@
           Grátis, Fácil e Rápido.
         </h3>
         <button class="btn-about">Entrar</button>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -413,12 +422,12 @@
 
   <!-- FOOTER -->
   <footer class="d-flex justify-content-center">
-    <div class="w-85 d-flex justify-content-between align-items-center">
-      <div>
-        © 2022 Onttur, Inc. Todos os direitos reservados
+    <div class="w-85 d-flex justify-content-between align-items-center footer-mobile">
+      <div class="reserved">
+        <h3>© 2022 Onttur, Inc. Todos os direitos reservados</h3>
         <span class="ml-5 font-weight-bold">65 8000-5555</span>
       </div>
-      <div>
+      <div class="network">
         <img src="../img/icons8-instagram.png" alt="instagram">
         <img src="../img/icons8-facebook.png" alt="facebook">
       </div>

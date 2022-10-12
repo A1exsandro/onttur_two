@@ -61,7 +61,31 @@
 	margin-top: 26.68rem;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 980px) {
+
+  .div-img-about {
+    width: 100%;
+  }
+
+  .img-about {
+    width: 16.25rem;
+    height: 22.6rem;
+    margin-bottom: 7rem;
+  }
+
+  .img-about2 {
+    width: 13rem;
+    height: 9.3rem;
+    margin-left: -5.5rem;
+    margin-top: 3rem;
+  }
+
+  .img-about3 {
+    width: 13rem;
+    height: 9.3rem;
+    margin-left: -10rem;
+    margin-top: 16rem;
+  }
 
   .btn-about {
     display: none;
