@@ -51,7 +51,7 @@ header {
   position: absolute;
   justify-content: space-evenly;
   height: 15rem;
-  margin-top: 25rem;
+  margin-top: 28%;
 }
 
 .hr-header {
@@ -113,5 +113,24 @@ header {
 
   .d-visible {
     display: block;
+  }
+
+  .media-header {
+    display: none;
+  }
+
+  .right-header {
+    display: none;
+  }
+
+  .title-header h3 {
+    font-size: 17.6173px;
+    line-height: 26px;
+  }
+
+  .title-header h2 {
+    padding: 0 32px;
+    font-size: 35.2346px;
+    line-height: 53px;
   }
 }
