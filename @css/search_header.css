@@ -5,6 +5,11 @@
     margin: 1rem 0;
 }
 
+.container-search span {
+    display: flex !important;
+    align-items: center;
+}
+
 .container-search input {
     width: 23rem;
     height: 30px;

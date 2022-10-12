@@ -29,6 +29,7 @@ button {
 
 li {
     list-style-type: none; 
+    cursor: pointer;
 }
 input {
     outline: none;
