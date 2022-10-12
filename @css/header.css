@@ -47,7 +47,7 @@ header {
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1150px) {
   header {
     position: relative;
     height: 4.25rem;
