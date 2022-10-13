@@ -1,7 +1,3 @@
-.container-category-selector {
-    height: 3rem;
-}
-
 .container-category-selector li {
     display: flex;
     flex-direction: column;

@@ -1,7 +1,7 @@
 .card-group {
-    display: grid;
+    /* display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 2.813rem;
+    gap: 2.813rem; */
 }
 
 .card-group img {
@@ -37,10 +37,13 @@
 
 @media only screen and (max-width: 980px) {
     .card-group {
-        gap: 1.5rem;
-        margin-left: 1.25rem;
+        display: flex;
         overflow-x: scroll;
-        white-space: nowrap;
+white-space: nowrap;
+        /* gap: 1.5rem; */
+        /* margin-left: 1.25rem;
+        overflow-x: scroll;
+        white-space: nowrap; */
     }
     
     .card-group img {

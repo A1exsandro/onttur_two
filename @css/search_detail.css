@@ -1,7 +1,19 @@
-
 .navbar-search-detail {
     display: flex;
     justify-content: space-between;
+    padding: 1.5rem;
+    cursor: pointer;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+}
+
+.search-detail {
+    margin-top: 72px;
+    display: flex;
+    border-top: 0.063rem solid #eeeeee;
     border-bottom: 0.063rem solid #eeeeee;
     padding: 1.5rem;
     cursor: pointer;
@@ -12,51 +24,26 @@
     background: #ffffff;
 }
 
-.container-list-filters {
-    border-radius: 0.625rem;
-    padding: 0 36px;
-    height: 100%;
-    margin: 4rem 0;
+.container-list-places {
+    margin-top: 170px;
 }
 
-.container-section-list-filter {
-    border-bottom: 1px solid #eeeeee;
-    padding: 35px 0;
-}
-
-.container-list-filters ul {
-    margin: 1rem 0;
-}
-
-
-.container-list-filters strong {
-    font-weight: bold;
-}
-
-.container-list-filters p {
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.container-list-filters li {
+.list-places {
     display: flex;
-    margin-bottom: .5rem;
-}
-
-.container-list-filters li span {
-    margin-left: .5rem;
-    font-weight: 300;
-}
-
-.footer-fixed {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 1rem 1.25rem;
-    border-top: 1.5px solid #eeeeee;
-    background: #ffffff;
+    margin: 1.25rem;
+    cursor: pointer;
+}
+
+.list-places-description {
+    margin-left: 1rem;
+}
+
+.list-places-description p {
+    font-weight: 500;
+}
+
+.list-places-description span {
+    font-weight: 300;
+    color: #828282;
 }
