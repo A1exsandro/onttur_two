@@ -1,71 +1,110 @@
 .search {
-display: flex;
-align-items: center;
-justify-content: space-around;
-position: absolute;
-margin-top: -2.5rem;
-width: 37.5rem;
-height: 4.125rem;
-background: #FFFFFF;
-/* background: #D6D6D6; */
-box-shadow: 0px 4px 4px rgba(137, 137, 137, 0.25);
-border-radius: 102.5px;
-}   
-
-.state, .city, .second-group {
-display: flex;
-align-items: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	margin-top: -3.5rem;
+	width: 60rem;
+	height: 6.5rem;
+	background: #FFFFFF;
+	/* background: #D6D6D6; */
+	box-shadow: 0px 4px 4px rgba(137, 137, 137, 0.25);
+	border-radius: 102.5px;
+	padding: 1.25rem;
 }
 
-.count-state, .count-city {
-display: flex;
-align-items: center;
-justify-content: center;
-width: 2.25rem;
-height: 2.25rem;
-border-radius: 50%;
-margin-right: 15px;
-margin-left: 21px;
+.state,
+.city,
+.second-group {
+	display: flex;
+	align-items: center;
+}
 
-background: rgba(80, 164, 148, 0.32);
+.count-state,
+.count-city {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 50%;
+	margin-right: 15px;
+
+	background: rgba(80, 164, 148, 0.32);
 }
 
 .state {
-width: 14.4rem;
-border-right: 1.5px solid #D6D6D6;
+	width: 21.4rem;
+	border-right: 1.5px solid #D6D6D6;
 }
 
 .second-group {
-width: 23rem;
-justify-content: space-around;
+	width: 37rem;
+	justify-content: space-between;
+	margin-left: 2rem;
 }
 
 .place {
-display: flex;
-align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .search input {
-width: 104px;
-height: 18px;
-font-weight: 400;
-font-size: 0.75rem;
-line-height: 1.125rem;
-color: #B4B4B4;
-outline: none;
+	width: 15rem;
+	height: 18px;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.125rem;
+	color: #B4B4B4;
+	outline: none;
 }
 
 .btn-search {
-width: 7rem;
-height: 2.5rem;
-border-radius: 20.5px;
-background: #D9343D;
-color: #FFFFFF;
+	width: 11rem;
+	height: 4rem;
+	border-radius: 2rem;
+	background: #D9343D;
+	color: #FFFFFF;
 
-font-weight: 500;
-font-size: 0.75rem;
-line-height: 1.125rem;
+	font-weight: 500;
+	line-height: 1.125rem;
+	font-size: 1rem;
 }
+
+.container-list-places-home {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 60rem;
+    position: absolute;
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    margin-top: 4rem;
+    background: #ffffff;
+}
+
+.list-places-header-home {
+	border-bottom: 1px solid #eeeeee;
+}
+
+.list-places-home {
+    display: flex;
+    align-items: center;
+    margin: 1.25rem;
+    cursor: pointer;
+}
+
+.list-places-home-description {
+    margin-left: 1rem;
+}
+
+.list-places-home-description p {
+    font-weight: 500;
+}
+
+.list-places-home-description span {
+    font-weight: 300;
+    color: #828282;
+}
+
 
 @media screen and (max-width: 980px) {
 
@@ -80,15 +119,20 @@ line-height: 1.125rem;
 		height: 1.4rem;
 	}
 
-	.state h4, .second-group h4, .count-city, .count-state {
+	.state h4,
+	.second-group h4,
+	.count-city,
+	.count-state {
 		font-size: 0.4rem;
 	}
 
-	.div-state, .div-city {
+	.div-state,
+	.div-city {
 		height: 1.8rem;
 	}
 
-	.count-state, .count-city {
+	.count-state,
+	.count-city {
 		width: 1.3rem;
 		height: 1.3rem;
 		margin-left: 1rem;
