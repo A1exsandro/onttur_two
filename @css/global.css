@@ -34,3 +34,14 @@ li {
 input {
     outline: none;
 }
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#000000; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
