@@ -3,13 +3,14 @@
     grid-template-columns: auto auto auto auto;
     gap: 2.813rem;
 }
-.card-group img  {
+
+.card-group img {
     height: 18.125rem;
     width: 18.125rem;
     border-radius: 10px;
 }
 
-.card-group p  {
+.card-group p {
     margin-bottom: .3rem;
 }
 
@@ -32,4 +33,12 @@
 
 .card-discount {
     font-weight: bold;
+}
+
+@media only screen and (max-width: 980px) {
+    .card-group img {
+        height: 14rem;
+        width: 14rem;
+        border-radius: 10px;
+    }
 }
