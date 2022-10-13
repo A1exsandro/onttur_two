@@ -23,9 +23,44 @@
     margin: 0 auto;
 }
 
+.header-logo-detail {
+    height: 2.3rem;
+}
+
 .container-category-selector {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+.container-list-places-detail {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 30rem;
+    position: absolute;
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    margin-top: 4rem;
+    margin-left: -2rem;
+    background: #ffffff;
+}
+
+.list-places-detail {
+    display: flex;
+    align-items: center;
+    margin: 1.25rem;
+    cursor: pointer;
+}
+
+.list-places-detail-description {
+    margin-left: 1rem;
+}
+
+.list-places-detail-description p {
+    font-weight: 500;
+}
+
+.list-places-detail-description span {
+    font-weight: 300;
+    color: #828282;
 }
 
 @media only screen and (max-width: 1600px) {
