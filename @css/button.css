@@ -16,3 +16,9 @@
 	border-color: #C41013;
     border: 0.063rem solid #C41013;
 }
+
+.button--state-dark {
+	color: #FFF;
+	background: #000000;
+	padding: .8rem 1.25rem !important;
+}

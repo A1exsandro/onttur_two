@@ -4,6 +4,26 @@
     margin-left: auto;
 }
 
+.container-header-small {
+    display: none;
+}
+
+.image-logo-small {
+    height: 2rem;
+}
+
 @media only screen and (max-width: 980px) {
- 
+    .container-header-large {
+        display: none;
+    }
+
+    .container-header-small {
+        display: block;
+        padding: 1rem 1.25rem;
+    }
+
+    .container-category-selector {
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
 }

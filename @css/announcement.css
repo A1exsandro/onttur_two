@@ -34,3 +34,14 @@
     border-radius: 0 0.7rem 0.7rem 0;
     background-image: url('../img/coca-cola-com-gelo-garrafa-vidro.jpg');
 }
+
+@media only screen and (max-width: 980px) {
+    .announcement {
+        justify-content: center;
+        margin: 1.25rem;
+        width: 100%;
+    }
+    .announcement-image  {
+        display: none;
+    }
+}

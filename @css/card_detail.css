@@ -36,9 +36,21 @@
 }
 
 @media only screen and (max-width: 980px) {
+    .card-group {
+        gap: 1.5rem;
+        margin-left: 1.25rem;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+    
     .card-group img {
-        height: 14rem;
-        width: 14rem;
+        height: 12rem;
+        width: 12rem;
         border-radius: 10px;
     }
+
+    .card-description {
+        font-size: .7rem;
+    }
+
 }
