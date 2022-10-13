@@ -3,6 +3,8 @@
     align-items: center;
     font-size: 0.75rem;
     color: #8C8C8C;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .container-breadcrumb li {
@@ -14,6 +16,27 @@
 .container-breadcrumb span {
     font-size: 16px;
     padding: 0 .5rem;
+}
+
+@media only screen and (max-width: 1600px) {
+    .container-breadcrumb {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .container-breadcrumb {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container-breadcrumb {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 980px) {

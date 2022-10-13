@@ -1,7 +1,13 @@
 .container-detail {
-    max-width: 1280px; 
     margin-right: auto; 
     margin-left: auto;
+}
+
+.container-body-detail {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .container-header-small {
@@ -12,7 +18,77 @@
     height: 2rem;
 }
 
+.container-header-large {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.container-category-selector {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .container-category-selector {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .container-header-large {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .container-body-detail {   
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
+
+
+@media only screen and (max-width: 1400px) {
+
+    .container-category-selector {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .container-header-large {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .container-body-detail {   
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .container-category-selector {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .container-header-large {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .container-body-detail {   
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
 @media only screen and (max-width: 980px) {
+    .container-body-detail {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.25rem;
+    }
     .container-header-large {
         display: none;
     }
