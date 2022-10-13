@@ -1,0 +1,25 @@
+.container-signature-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #D3D3D3;
+    border-radius: 0.625rem;
+    width: 16.25rem;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.signature-text {
+    color: #A7A7A7;
+}
+
+.signature-price {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 980px) {
+    .container-signature-detail  {
+       display: none;
+    }
+}
