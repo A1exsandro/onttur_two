@@ -74,6 +74,32 @@ hr {
   color: #50A494;
 }
 
+/* TITLES */
+.title-gallery1 {
+  font-weight: 600;
+  font-size: 38.1325px;
+  line-height: 57px;
+}
+
+.h3-place {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.h4-place {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.title-place {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  padding-bottom: .8rem;
+}
+
 @media screen and (max-width: 980px) {
 
   .container-btn-gallery {
