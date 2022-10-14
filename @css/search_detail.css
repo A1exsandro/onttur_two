@@ -47,3 +47,9 @@
     font-weight: 300;
     color: #828282;
 }
+
+@media screen and (max-width: 980px) {
+    .container-list-places-home {
+        display: none;
+    }
+}

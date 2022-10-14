@@ -68,10 +68,39 @@
 @media screen and (max-width: 980px) {
 
   .div-recommendations {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 0 25px;
+    width: 330px;
+    height: 178px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .div-recommendations h3 {
+    width: 122px;
+    height: 72px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+
+  .div-recommendations h4 {
     display: none;
   }
 
+  .div-recommendations button {
+    width: 78.31px;
+    height: 25.68px;
+    font-size: 10.2703px;
+    line-height: 15px;
+  }
+
   .recommendations {
+    justify-content: center;
+    align-items: center;
     height: 11rem;
     margin-top: 0;
   }
