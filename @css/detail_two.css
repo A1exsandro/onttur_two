@@ -55,12 +55,7 @@
     color: #000000;
   }
   
-  .score {
-    display: flex;
-    align-items: center;
-  }
-  
-  .score img {
+  .score-detail img {
     margin-right: 8px;
   }
   
