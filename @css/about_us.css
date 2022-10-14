@@ -7,7 +7,9 @@
 }
 
 .div-about {
-  margin: 12.8rem 10rem 10.6rem 0;
+  display: flex;
+  justify-content: center;
+  margin: 12.8rem 0 10.6rem 0;
 }
 
 .title-about {
