@@ -1,0 +1,133 @@
+.container-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #50A494;
+  }
+  
+  .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 512px;
+    height: 600px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding-bottom: 60px;
+  }
+  
+  #logo-login {
+    margin: 80px 0 15px 0;
+  }
+  
+  .form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+  }
+  
+  #email, #password {
+    width: 356px;
+    height: 50px;
+    margin-bottom: 23px;
+    padding-left: 22px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+  }
+  
+  .forgot {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .checkbox {
+    display: flex;
+  
+  }
+  
+  #checkbox {
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+  
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+  }
+  
+  .label-forgot {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  
+    color: #50A494;
+  }
+  
+  .label-checkbox {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  
+    color: #717171;
+  }
+  
+  .btn-entry-login {
+    width: 100%;
+    height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 45px 0 20px 0;
+    text-align: center;
+    color: #FFFFFF;
+  
+    background: #50A494;
+    border-radius: 4px;
+  }
+  
+  .btn-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    background: #FFFFFF;
+    color: #A9A9A9;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+  }
+  
+  .btn-google img {
+    margin-right: 10px;
+  }
+  
+  .create-account {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px;
+  
+    color: #FFFFFF;
+  }
+  
+  .create-account a {
+    font-weight: 600;
+    color: #FFFFFF;
+  }
