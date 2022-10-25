@@ -131,3 +131,12 @@
     font-weight: 600;
     color: #FFFFFF;
   }
+
+@media screen and (max-width: 980px) {
+
+  .login {
+    width: 90%;
+    height: 78%;
+  }
+
+}
