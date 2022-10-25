@@ -230,6 +230,15 @@ li {
     align-items: center;
   }
 
+  .img-details-2, .img-details-3, .img-details-4 {
+    display: none;
+  }
+
+  .img-details-1 {
+    grid-column: 1/8;
+    grid-row: 1/4;
+  }
+
   .value {
     margin-left: 0;
     margin-top: 20px;
