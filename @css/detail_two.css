@@ -230,6 +230,13 @@ li {
     align-items: center;
   }
 
+  .text-mobile {
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px
+  }
+
   .img-details-2, .img-details-3, .img-details-4 {
     display: none;
   }
@@ -244,7 +251,7 @@ li {
     margin-top: 20px;
   }
 
-  .footer-detail_two, .footer-detail_two span {
+  .text-footer-detail_two, .text-footer-detail_two-number {
     font-size: 12px;
     line-height: 18px;
   }
