@@ -14,8 +14,8 @@
 </head>
 <body>
   <!-- HEADER -->
-  <div class="border-bottom ">
-  <div class="container-header-large">
+  <div class="border-bottom">
+  <div class="container-header-large  w-80">
       <div class="d-flex justify-content-between align-items-center">
           <img class="header-logo-detail" src="../img/logo.png" alt="Logo Onttur">
           <div class="container-search d-flex">
@@ -73,42 +73,50 @@
       </div>
   </div>
 
-  <!-- CATEGORY SELECTOR -->
-  <div class="border-bottom">
-    <ul class="d-flex container-category-selector">
-        <li>
-            <a>Opções de passeio</a>
-            <div class="category-selector__underline"></div>
-        </li>
-        <li>
-            <a>Dicas de viagem</a>
-        </li>
-        <li>
-            <a>Opções de pesca</a>
-        </li>
-    </ul>
-  </div>
+  
 
   
   <div class="container w-80 w-header-mobile center">
     <main>
+
+      <!-- CATEGORY SELECTOR -->
+      <div>
+        <ul class="d-flex container-category-selector">
+          <li>
+            <a>Opções de passeio</a>
+            <div class="category-selector__underline"></div>
+          </li>
+          <li>
+            <a>Dicas de viagem</a>
+          </li>
+          <li>
+            <a>Opções de pesca</a>
+          </li>
+        </ul>
+      </div>
       
-      <div class="place-details">
-        <small>Mato Grosso (MT) > 1000 - Várzea Grande > Restaurantes: Várzea Grande > Detroit Steakhouse</small>
+      <div class="place-details  mt-2">
+        <small>Mato Grosso (MT) > Várzea Grande > Restaurantes: Várzea Grande > Detroit Steakhouse</small>
         <h2 class="mt-5">Detroit Steakhouse</h2>
         <small>Av. Mato Grosso, 1000 - Araes, Cuiabá - MT, 78005-615</small>
 
-        <div class="d-flex align-items-center justify-content-between w-75">
+        <div class="d-flex align-items-center justify-content-between w-75 mt-2">
           <div class="score-detail d-flex align-items-center">
             <img src="../img/star.png" alt="Estrela pontuação">
             <h5>4.6</h5>
           </div>
 
-          <div>
+          <div class="d-flex align-items-center">
+            <span class="material-symbols-outlined mr-1">
+              call
+            </span>
             65 3682-6130
           </div>
 
-          <div>
+          <div class="d-flex align-items-center">
+            <span class="material-symbols-outlined mr-1">
+              alarm
+            </span>
             Aberto agora:11:00 AM - 11:00 PM
           </div>
         </div>
@@ -137,7 +145,7 @@
           <div class="content-info">
             <div class="description-place">
               <h5 class="title-info-details">Descrição do local</h5>
-              <h5>
+              <h5 class="desc-info-details">
                 O Detroit Steakhouse é mais do que um restaurante, é uma excelente opção de lazer, 
                 já que possui ambiente e decoração diferenciados, além de um sistema multimídia inovador 
                 com mais de 15 TVs LCD espalhadas estrategicamente exibindo esportes nacionais 
@@ -145,18 +153,18 @@
                 futebol americano, rugby, entre outros) e videoclipes com áudio 100% digital.
               </h5>
               <h5 class="title-info-details">Recursos</h5>
-              <h5>
+              <h5 class="desc-info-details">
                 Para levar, Reservas, Lugares sentados, Estacionamento disponível, Televisão, 
                 Tem cadeiras de papa, Acessível a cadeiras de rodas, Serve bebidas alcoólicas, 
                 Bebidas alcoólicas, Aceita American Express, Aceita Mastercard, Aceita Visa, 
                 Wi-Fi gratuito, Aceita cartão de crédito, Serviço de mesa
               </h5>
               <h5 class="title-info-details">Dietas especiais</h5>
-              <h5>Adequado para vegetarianos</h5>
+              <h5 class="desc-info-details">Adequado para vegetarianos</h5>
               <h5 class="title-info-details">Refeições</h5>
-              <h5>Almoço, Jantar, Tarde Da Noite, Bebidas</h5>
+              <h5 class="desc-info-details">Almoço, Jantar, Tarde Da Noite, Bebidas</h5>
               <h5 class="title-info-details">Cozinha</h5>
-              <h5>Americana, Steakhouse, Bar, Churrasco, Pub gastronômico</h5>
+              <h5 class="desc-info-details">Americana, Steakhouse, Bar, Churrasco, Pub gastronômico</h5>
             </div>
             <div class="value">
               <h2 class="price">R$ 19,90 mês</h2>
@@ -188,7 +196,7 @@
             </div>
             <div class="description-rating">
               <h5 class="appraiser">Alexsandro</h5>
-              <h5>O cheeseburguer é maravilhoso. Animais de estimação e crianças. Ótimos preços de happy hour!</h5>
+              <h5 class="desc-info-details">O cheeseburguer é maravilhoso. Animais de estimação e crianças. Ótimos preços de happy hour!</h5>
             </div>
           </div>
 
@@ -202,7 +210,7 @@
             </div>
             <div class="description-rating">
               <h5 class="appraiser">Maykon Pacheco</h5>
-              <h5>O cheeseburguer é maravilhoso. Animais de estimação e crianças. Ótimos preços de happy hour!</h5>
+              <h5 class="desc-info-details">O cheeseburguer é maravilhoso. Animais de estimação e crianças. Ótimos preços de happy hour!</h5>
             </div>
           </div>
         </div>
@@ -212,11 +220,11 @@
     <!------------------- FOOTER -------------------->
    <footer class="footer-detail_two">
     <div class="d-flex">
-      <h3>
-        © 2022 Onttur, Inc. Todos os direitos reservados <span> - </span>
+      <h3 class="text-footer-detail_two mr-1">
+        © 2022 Onttur, Inc. Todos os direitos reservados - 
       </h3>
       <span>
-        85 98157-9391/ 65 98159-9359
+        <h3 class="text-footer-detail_two-number"> 85 98157-9391/ 65 98159-9359</h3>
       </span>
     </div>
   </footer>
