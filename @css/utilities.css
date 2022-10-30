@@ -273,3 +273,32 @@
 .d-none {
   display: none;
 }
+
+.ml-482 {
+  margin-left: 4.82rem;
+}
+
+.mb18 {
+  margin-bottom: 1.8rem;
+}
+
+.gap-1 {
+  gap: 3.8rem;
+}
+
+.gap-2 {
+  gap: 3rem;
+}
+
+.fw400 {
+font-weight: 400;
+}
+
+/* padding */
+.py-125 {
+  padding: 1.25rem 0;
+}
+
+.overflow-h {
+  overflow: hidden;
+}

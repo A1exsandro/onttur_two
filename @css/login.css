@@ -13,7 +13,6 @@
     flex-direction: column;
     align-items: center;
     width: 512px;
-    height: 600px;
     border-radius: 10px;
     background: #FFFFFF;
     padding-bottom: 60px;
@@ -31,10 +30,14 @@
   }
   
   #email, #password {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 356px;
     height: 50px;
+    padding: 0 22px;
     margin-bottom: 23px;
-    padding-left: 22px;
+    color: #DDDDDD;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
   }
