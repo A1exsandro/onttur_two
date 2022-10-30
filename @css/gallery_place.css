@@ -103,7 +103,7 @@ hr {
 @media screen and (max-width: 980px) {
 
   .place-mobile {
-    gap: 1.3rem;
+    gap: 1rem;
   }
 
   .w-mobile {

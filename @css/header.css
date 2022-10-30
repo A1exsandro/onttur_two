@@ -107,6 +107,10 @@ header {
     height: 4.25rem;
   }
 
+  .title-header {
+    margin-top: 12rem;
+  }
+
   .info-header {
     display: none;
   }
