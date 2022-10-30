@@ -188,6 +188,17 @@ li {
   color: #000000;
 }
 
+.title-sign {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-percent-sign {
+  font-weight: 600;
+  color: #50A494;
+}
+
 .each-rating {
   margin-bottom: 18px;
 }
