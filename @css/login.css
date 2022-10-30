@@ -28,8 +28,15 @@
     justify-content: center;
     margin-top: 35px;
   }
+
+  .text-login {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #717171;
+  }
   
-  #email, #password {
+  #email, #password, #confirm-password {
     display: flex;
     align-items: center;
     justify-content: space-between;

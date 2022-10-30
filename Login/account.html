@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <title>Account</title>
   <link rel="stylesheet" href="../@css/root.css">
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,500,1,0" />
@@ -17,7 +17,7 @@
 
     <div class="login">
       <img id="logo-login" src="../img/logo-onttur.png" alt="Logo Onttur">
-      <h2>Seja bem-vindo!</h2>
+      <h2>Criar conta</h2>
       <h5 class="text-login">O melhor dos melhores passeios, atrações e</h5>
       <h5 class="text-login">atividades que você não vai querer perder.</h5>
 
@@ -35,23 +35,19 @@
             lock
           </span>
         </div>
-        
-        <div class="forgot">
-          <div class="checkbox">
-            <input id="checkbox" type="checkbox">
-            <h5 class="label-checkbox">Lembra senha</h5>
-          </div>
-          <h5 class="label-forgot">Esqueci senha</h5>
+
+        <div id="confirm-password">
+        <input type="password"  placeholder="confirmar senha">
+        <span class="material-symbols-outlined">
+            lock
+        </span>
         </div>
-        <button class="btn-entry-login">Entrar</button>
-        <button class="btn-google">
-          <img src="../img/Logo-google-icon.png" alt="Logo google">
-          Entrar com Google
-        </button>
+        
+        <button class="btn-entry-login">Criar conta</button>
       </form>
       
     </div>
-    <h5 class="create-account">Ainda não tem uma conta? <a href="./account.html">Criar conta</a></h5>
+    <h5 class="create-account">Já possue uma conta? <a href="./index.html">Entrar</a></h5>
   </div>
 </body>
 </html>
